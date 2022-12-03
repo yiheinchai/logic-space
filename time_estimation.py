@@ -11,12 +11,15 @@ CARD_MATURE_TO_TIME_MAPPING = {
     '1 min': 40,
      '10 min': 30,
      '1 day': 10,
-     '3 days': 25,
+     '3 days': 20,
      '7 days': 25,
      '11 days': 25,
      '17 days': 25,
      '21 days': 25,
 }
+
+# This time mapping indicates the time it takes before pressing the button of the given label.
+# For example, after 1 days, we will take 20 seconds to press the '3 days' button
 
 CARDS_TO_MATURITY = len(TIMING_CHAIN)
 
